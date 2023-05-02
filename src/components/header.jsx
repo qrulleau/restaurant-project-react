@@ -1,12 +1,21 @@
 import React from 'react';
-import Logo from '../assets/logo.svg'
+import LogoWhite from '../assets/logo.svg'
+import LogoBlack from '../assets/logo-black.png'
+
+function Logo({background}){
+  if (background === true){
+    return <img src={LogoWhite} alt="" className='logoW'/>;
+  }
+  return <img src={LogoBlack} alt="" className='logo'/>;
+}
 
 function Header(props){
   return (
 
       <header className={props.className}>
         <div className="d-flex direction-column">
-          <img src={Logo} alt="" className='logo'/>
+         <Logo background={props.background}/>
+          
           <nav className='d-flex direction-column'>
             <a href="/">Home</a>
             <a href="/about">About</a>
