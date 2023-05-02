@@ -122,10 +122,11 @@ header {
   }
 
 }
-.reservation {
+.reservation, .news {
   margin: 0 109px 64px 372px;
   padding-left: 124px;
-
+}
+.reservation {
   & > .d-flex {
     gap :220px;
   }
@@ -146,6 +147,12 @@ header {
     margin: 26px 0 11px 0;
   }
 }
+.news {
+  h3 {
+    font-size: 36px;
+    margin: 40px 0 24px 0;
+  }
+}
 .btn {
   padding: 14px 46px;
 }
@@ -159,11 +166,15 @@ header {
 }
 .content {
 
-  img {
+  .logo {
     width: 350px;
   }
   .icon {
     width: 24px;
+  }
+  .d-flex {
+    gap: 60px;
+    flex-wrap: wrap;
   }
 }
 h2 {
@@ -204,6 +215,7 @@ form {
     border: 1px solid #D9D9D9;
     height: 69px;
     margin-top: 8px;
+    padding: 16px 16px;
   }
   .direction-column {
     gap: 8px;
