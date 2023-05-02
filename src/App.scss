@@ -122,7 +122,7 @@ header {
   }
 
 }
-.reservation, .news {
+.reservation, .news, .contact {
   margin: 0 109px 64px 372px;
   padding-left: 124px;
 }
@@ -146,6 +146,28 @@ header {
     color: black;
     margin: 26px 0 11px 0;
   }
+}
+.contact {
+  h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  p {
+    font-family: 'Inter';
+    margin-bottom: 24px;
+
+    &:nth-child(5),
+    &:nth-child(9){
+      margin-bottom: 0;
+    }
+  }
+  section {
+    margin-bottom: 48px;
+  }
+  .justify-start {
+    gap: 20px !important;
+  }
+
 }
 .news {
   h3 {
@@ -180,6 +202,7 @@ header {
 h2 {
   font-size: 72px;
   margin: 120px 0 84px 0;
+  text-transform: uppercase;
 }
 form {
   border: 1px solid #B3B3B3;
@@ -202,6 +225,7 @@ form {
     padding: 19px 0;
     background-color: #fff;
     border-color: black;
+    cursor: pointer;
   }
   input[type=date]{
     width: 244px;
