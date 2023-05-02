@@ -1,15 +1,18 @@
 import React from 'react';
-import LogoWhite from '../assets/logo.svg'
-import LogoBlack from '../assets/logo-black.png'
+import LogoWhite from '../assets/logo/logo.svg'
+import LogoBlack from '../assets/logo/logo-black.png'
 
 function Logo({background}){
   if (background === true){
-    return <img src={LogoWhite} alt="" className='logoW'/>;
+    return <img src={LogoWhite} alt="" className='logo'/>;
   }
   return <img src={LogoBlack} alt="" className='logo'/>;
 }
 
 function Header(props){
+
+  const buttonClass = props.background ? "btn-white" : "btn-black";
+
   return (
 
       <header className={props.className}>
@@ -24,7 +27,7 @@ function Header(props){
             <a href="/news">News</a>
             <a href="/contact">Contact</a>
           </nav>
-          <a href="/reservation" className='btn'>Reservation</a>
+          <a href="/reservation" className={`btn ${buttonClass}`}>Reservation</a>
         </div>
       </header>
   );

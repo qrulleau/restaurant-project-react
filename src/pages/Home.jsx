@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/header.jsx"
-import Logo from "../assets/logo.svg"
+import Logo from "../assets/logo/logo.svg"
 import iconStar from "../assets/icon/star.png"
 
 

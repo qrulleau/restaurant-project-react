@@ -88,7 +88,6 @@ header {
   left: 0;
   bottom: 0;
   top: 0;
-
   .logo {
     width: 140px;
   }
@@ -101,6 +100,9 @@ header {
   nav {
     gap: 32px;
   }
+}
+.border {
+  border-right: 1px solid #E0E0E0;
 }
 .home {
   background-image: url("assets/background/home.jpg");
@@ -122,6 +124,7 @@ header {
 }
 .reservation {
   margin: 0 109px 64px 372px;
+  padding-left: 124px;
 
   & > .d-flex {
     gap :220px;
@@ -144,9 +147,15 @@ header {
   }
 }
 .btn {
+  padding: 14px 46px;
+}
+.btn-white {
   border: 1px solid #ffffff;
   color: #ffffff;
-  padding: 14px 46px;
+}
+.btn-black {
+  color: black;
+  border: 1px solid black;
 }
 .content {
 
@@ -181,6 +190,7 @@ form {
     width: 100%;
     padding: 19px 0;
     background-color: #fff;
+    border-color: black;
   }
   input[type=date]{
     width: 244px;
