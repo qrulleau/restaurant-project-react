@@ -1,3 +1,4 @@
+import React from 'react';
 import Input from '../input.jsx'
 
 function ContactForm (){
@@ -44,11 +45,11 @@ function ContactForm (){
           <Input type="date" name="date" placeholder="10-04-2016"/>
         </div>
       </div>
-      <div>
+      <div className='allerie'>
         <label htmlFor="">Alleries & intolerances</label>
         <textarea name="" id=""></textarea>
       </div>
-      <div className="d-flex">
+      <div className="d-flex justify-start">
         <input type="checkbox" name="" id="" />
         <p>I have read and agree to the above terms and conditions.</p>
       </div>
