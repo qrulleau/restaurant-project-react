@@ -5,7 +5,7 @@ import Header from "../components/header"
 function Reservation() {
   return (
     <div className="reservation">
-      <Header background={false}/>
+      <Header background={false} className="border"/>
       <h2>Reservation</h2>
       <div className="d-flex">
         <div>
