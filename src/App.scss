@@ -80,6 +80,11 @@ a {
   text-align: center;
 }
 header {
+  padding: 106px 85px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
 
   .logo {
     width: 140px;
@@ -96,7 +101,6 @@ header {
 }
 .home {
   background-image: url("assets/background/home.jpg");
-  padding: 85px 106px;
 
   & > .justify-start {
     gap: 500px;
@@ -108,7 +112,20 @@ header {
     margin: 72px 0 28px 0;
     font-size: 23px;
   }
+  .content {
+    padding: 270px 0px;
+  }
 
+}
+.reservation {
+  margin: 0 109px 0 372px;
+
+  & > .d-flex {
+    gap :220px;
+  }
+  .section {
+    margin-bottom: 48px;
+  }
 }
 .btn {
   border: 1px solid #ffffff;
@@ -122,5 +139,51 @@ header {
   }
   .icon {
     width: 24px;
+  }
+}
+h2 {
+  font-size: 72px;
+  margin: 189px 0 137px 0;
+}
+form {
+  border: 1px solid #B3B3B3;
+  padding: 65px 50px 35px 50px;
+  
+  & > .d-flex {
+    margin-bottom: 32px;
+    gap: 40px;
+  }
+  h3 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+  input {
+    border: 1px solid #D9D9D9;
+    padding: 12px 26px;
+  }
+  input[type=submit]{
+    width: 100%;
+    padding: 19px 0;
+    background-color: #fff;
+  }
+  input[type=date]{
+    width: 244px;
+  }
+  .justify-start {
+    gap: 20px;
+  }
+  textarea{
+    padding: inherit;
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 69px;
+    margin-top: 8px;
+  }
+  .direction-column {
+    gap: 8px;
+  }
+  .allerie {
+    margin-bottom: 24px;
+
   }
 }
