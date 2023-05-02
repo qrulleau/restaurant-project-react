@@ -64,6 +64,9 @@ a {
 .white {
   color: #ffffff;
 }
+.black {
+  color: black !important;
+}
 .justify-start {
   justify-content: flex-start;
 }
@@ -118,13 +121,26 @@ header {
 
 }
 .reservation {
-  margin: 0 109px 0 372px;
+  margin: 0 109px 64px 372px;
 
   & > .d-flex {
     gap :220px;
   }
   .section {
     margin-bottom: 48px;
+  }
+  p {
+    color: #B3B3B3;
+    line-height: 27px;
+  }
+  h3 {
+    font-size: 23px;
+    margin-bottom: 28px;
+  }
+  .strong {
+    font-size: 28px;
+    color: black;
+    margin: 26px 0 11px 0;
   }
 }
 .btn {
@@ -143,7 +159,7 @@ header {
 }
 h2 {
   font-size: 72px;
-  margin: 189px 0 137px 0;
+  margin: 120px 0 84px 0;
 }
 form {
   border: 1px solid #B3B3B3;
