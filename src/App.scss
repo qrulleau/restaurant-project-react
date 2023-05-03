@@ -125,9 +125,18 @@ header {
   }
 
 }
-.reservation, .news, .contact, .about {
+.reservation, .news, .contact, .about, .gallery {
   margin: 0 109px 64px 372px;
   padding-left: 124px;
+}
+.gallery {
+  padding-left: 0;
+  & > .d-flex {
+    gap: 15px;
+    & > .d-flex {
+      gap: 15px;
+    }
+  }
 }
 .reservation {
   & > .d-flex {
