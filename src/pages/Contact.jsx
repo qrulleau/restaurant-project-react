@@ -25,7 +25,7 @@ function Contact() {
             <p>Lunch: 12:00 / closed 16:00</p>
             <p>Dinner: 19:00 / closed 00:30</p>
             <p>Weekly closed: Sunday (all day), Monday (all day)</p>
-            <div className="d-flex justify-start">
+            <div className="d-flex justify-start social-network">
               <img src={LogoFacebook} alt="" />
               <img src={LogoInstagram} alt="" />
               <img src={LogoYoutube} alt="" />

@@ -11,7 +11,7 @@ function News() {
       <Header className="border" background={false} />
       <div className="content">
         <h2>News</h2>
-        <div className="d-flex">
+        <div className="d-flex flex-wrap">
           <Article title="Lorem glavrida nulla dolor ipsum" date="May 3, 2017" imageUrl={ ThumbnailArticle }/>
           <Article title="New lorem nulla dolor glavrida" date="May 3, 2017" imageUrl={ ThumbnailArticleBis }/>
           <Article title="New lorem nulla dolor glavrida" date="May 3, 2017" imageUrl={ ThumbnailArticleBis }/>

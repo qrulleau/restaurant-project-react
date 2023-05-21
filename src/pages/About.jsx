@@ -21,7 +21,7 @@ function About() {
               <h4>Chef & owner</h4>
               <p>Lorem ipsum dolor amet glavrida sit amet, consectetur adipiscing dolor sit amet, consectetur adipiscing elit. Aenean fermentum at urna at scelerisque. Praesent suscipit nisi non pretium ultrices. Ut eu ante sit amet ligula laoreet posuer euismod consectetur fringilla eu, lobortis in lorem amet sapien. Lorem dolor dolor amet glavrida sit amet, consectetur adipiscing amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar.</p>
               <p className='last'>Fusce malesuada ligula enim, fermentum rhoncus eros efficitur efficitur. Maecenas tincidunt, elit eu ornare volutpat, lorem arcu ullamcorper tortor, quis cursus ante magna in erat.</p>
-              <div className="d-flex justify-start">
+              <div className="d-flex justify-start social-network">
                 <img src={LogoInstagram} alt="" />
                 <img src={LogoFacebook} alt="" />
                 <img src={LogoYoutube} alt="" />
@@ -56,7 +56,7 @@ function About() {
         <section>
           <div className="d-flex">
             <div className="description">
-                <h3>Ingredient</h3>
+                <h3>Atmosphere</h3>
                 <div>
                   <h4>The restaurant</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis dapibus leo.</p>
